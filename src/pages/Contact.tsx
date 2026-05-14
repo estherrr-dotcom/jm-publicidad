@@ -2,6 +2,7 @@ import { FormEvent, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import NavBar from '../sections/NavBar'
 import Footer from '../sections/Footer'
+import { supabase } from '../lib/supabase'
 import {
   IMG_CONTACT_WORKSHOP, IMG_CONTACT_MAP,
   ICON_SUBMIT_ARROW, ICON_LOCATION, ICON_CLOCK, ICON_CORNER_DECO,
@@ -28,27 +29,41 @@ export default function Contact() {
   const [quoteLoading,   setQuoteLoading]   = useState(false)
   const [inquiryLoading, setInquiryLoading] = useState(false)
 
-  // TODO: replace console.log with Supabase insert into enquiries table
-  // import { supabase } from '../lib/supabase'
-  // await supabase.from('enquiries').insert({ type: 'quote', ...quote })
   async function handleQuoteSubmit(e: FormEvent) {
     e.preventDefault()
     setQuoteLoading(true)
-    await new Promise((r) => setTimeout(r, 600))
-    console.log('Quote form:', quote)
+    const { error } = await supabase.from('enquiries').insert({
+      type: 'quote',
+      service_type: quote.service,
+      budget: quote.budget,
+      description: quote.description,
+      timeline: quote.timeline,
+    })
     setQuoteLoading(false)
-    setQuoteStatus('success')
-    setQuote({ service: '', budget: '', description: '', timeline: '' })
+    if (error) {
+      setQuoteStatus('error')
+    } else {
+      setQuoteStatus('success')
+      setQuote({ service: '', budget: '', description: '', timeline: '' })
+    }
   }
 
   async function handleInquirySubmit(e: FormEvent) {
     e.preventDefault()
     setInquiryLoading(true)
-    await new Promise((r) => setTimeout(r, 600))
-    console.log('Inquiry form:', inquiry)
+    const { error } = await supabase.from('enquiries').insert({
+      type: 'inquiry',
+      name: inquiry.name,
+      email: inquiry.email,
+      message: inquiry.message,
+    })
     setInquiryLoading(false)
-    setInquiryStatus('success')
-    setInquiry({ name: '', email: '', message: '' })
+    if (error) {
+      setInquiryStatus('error')
+    } else {
+      setInquiryStatus('success')
+      setInquiry({ name: '', email: '', message: '' })
+    }
   }
 
   return (
@@ -124,6 +139,16 @@ export default function Contact() {
                     className="mt-6 font-inter text-[11px] tracking-[1.2px] uppercase text-muted hover:text-body-text transition-colors"
                   >
                     {t('contactPage.quote_submit')} →
+                  </button>
+                </div>
+              ) : quoteStatus === 'error' ? (
+                <div className="pt-8">
+                  <p className="font-manrope text-[16px] text-[#f87171]">{t('contactPage.form_error')}</p>
+                  <button
+                    onClick={() => setQuoteStatus('idle')}
+                    className="mt-6 font-inter text-[11px] tracking-[1.2px] uppercase text-muted hover:text-body-text transition-colors"
+                  >
+                    {t('contactPage.form_retry')} →
                   </button>
                 </div>
               ) : (
@@ -250,6 +275,16 @@ export default function Contact() {
                     className="mt-6 font-inter text-[11px] tracking-[1.2px] uppercase text-muted hover:text-body-text transition-colors"
                   >
                     {t('contactPage.inquiry_submit')} →
+                  </button>
+                </div>
+              ) : inquiryStatus === 'error' ? (
+                <div className="pt-6">
+                  <p className="font-manrope text-[16px] text-[#f87171]">{t('contactPage.form_error')}</p>
+                  <button
+                    onClick={() => setInquiryStatus('idle')}
+                    className="mt-6 font-inter text-[11px] tracking-[1.2px] uppercase text-muted hover:text-body-text transition-colors"
+                  >
+                    {t('contactPage.form_retry')} →
                   </button>
                 </div>
               ) : (

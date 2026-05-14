@@ -201,6 +201,8 @@
     "hours_weekdays": "MON — FRI",
     "hours_weekdays_time": "09:00 — 18:30 CET",
     "hours_weekend": "SAT — SUN",
-    "hours_weekend_time": "CLOSED"
+    "hours_weekend_time": "CLOSED",
+    "form_error": "Something went wrong. Please try again.",
+    "form_retry": "TRY AGAIN"
   }
 }

@@ -201,6 +201,8 @@
     "hours_weekdays": "LUN — VIE",
     "hours_weekdays_time": "09:00 — 18:30 CET",
     "hours_weekend": "SÁB — DOM",
-    "hours_weekend_time": "CERRADO"
+    "hours_weekend_time": "CERRADO",
+    "form_error": "Algo ha ido mal. Por favor, inténtalo de nuevo.",
+    "form_retry": "REINTENTAR"
   }
 }
