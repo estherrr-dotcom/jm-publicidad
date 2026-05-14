@@ -2,6 +2,7 @@ import { type FormEvent, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import NavBar from '../sections/NavBar'
 import Footer from '../sections/Footer'
+import PageSeo from '../components/PageSeo'
 import { supabase } from '../lib/supabase'
 import {
   IMG_CONTACT_WORKSHOP, IMG_CONTACT_MAP,
@@ -68,6 +69,11 @@ export default function Contact() {
 
   return (
     <div className="flex flex-col min-h-screen bg-primary-bg">
+      <PageSeo
+        title={t('seo.contact_title')}
+        description={t('seo.contact_description')}
+        path="/contact"
+      />
       <NavBar activeLink="contact" />
 
       {/* ── Hero ───────────────────────────────────────────────── */}

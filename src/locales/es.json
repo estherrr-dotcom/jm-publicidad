@@ -151,6 +151,16 @@
     "cta_body": "Cada briefing es un reto de precisión. Trae tu visión a nuestro taller y la construiremos para que perdure.",
     "cta_primary": "SOLICITAR PRESUPUESTO"
   },
+  "seo": {
+    "home_title": "JM Publicidad | Taller de Producción Industrial · Madrid",
+    "home_description": "Taller industrial especializado en impresión gran formato, rotulación vehicular, señalética, letras volumétricas y corte CNC. Est. 2009 — más de 15 años produciendo para marcas exigentes.",
+    "services_title": "Servicios | JM Publicidad — Gran Formato, Rotulación y Señalética",
+    "services_description": "Impresión gran formato, rotulación vehicular, señalética industrial, displays POP, letras volumétricas y corte CNC. Producción de alta precisión para marcas de alto impacto.",
+    "projects_title": "Proyectos | JM Publicidad — Portafolio de Producción Industrial",
+    "projects_description": "Archivo visual de resultados calibrados en señalética corporativa, rotulación de flota y espacios retail. Proyectos seleccionados del taller JM Publicidad.",
+    "contact_title": "Contacto | JM Publicidad — Solicita Presupuesto",
+    "contact_description": "Solicita presupuesto para tu proyecto de producción: gran formato, rotulación, señalética y más. Respondemos en menos de 24 horas."
+  },
   "contactPage": {
     "badge": "PUERTA DE PRODUCCIÓN",
     "heading_1": "CONECTA",

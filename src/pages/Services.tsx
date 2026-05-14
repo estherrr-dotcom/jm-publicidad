@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import NavBar from '../sections/NavBar'
 import Footer from '../sections/Footer'
+import PageSeo from '../components/PageSeo'
 import {
   IMG_SERVICES_BG,
   IMG_LARGE_FORMAT, IMG_VEHICLE, IMG_SIGNAGE,
@@ -30,6 +31,11 @@ export default function Services() {
 
   return (
     <div className="flex flex-col min-h-screen bg-primary-bg">
+      <PageSeo
+        title={t('seo.services_title')}
+        description={t('seo.services_description')}
+        path="/services"
+      />
       <NavBar activeLink="services" />
 
       {/* ── Hero ───────────────────────────────────────────── */}

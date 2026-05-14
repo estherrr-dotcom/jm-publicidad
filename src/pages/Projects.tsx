@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import NavBar from '../sections/NavBar'
 import Footer from '../sections/Footer'
+import PageSeo from '../components/PageSeo'
 import {
   IMG_TECH_CORE, IMG_FLEET_KINETICS, IMG_NOMAD_GEAR, IMG_VOID_RETAIL,
   ICON_ARROW_LG, ICON_ARROW_SM, ICON_ARROW_CTA,
@@ -26,6 +27,11 @@ export default function Projects() {
 
   return (
     <div className="flex flex-col min-h-screen bg-primary-bg">
+      <PageSeo
+        title={t('seo.projects_title')}
+        description={t('seo.projects_description')}
+        path="/projects"
+      />
       <NavBar activeLink="projects" />
 
       {/* ── Hero ───────────────────────────────────────────── */}
@@ -181,7 +187,7 @@ function ProjectCard({ project, img, colClass, height, arrowIcon, visible }: Pro
       >
         <img
           src={img}
-          alt=""
+          alt={`${project.title} — ${project.category}`}
           className="absolute inset-0 w-full h-full object-cover opacity-80 transition-transform duration-500 group-hover:scale-[1.03]"
           style={{ filter: 'saturate(0)' }}
         />

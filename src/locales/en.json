@@ -151,6 +151,16 @@
     "cta_body": "Every brief is a precision challenge. Bring your vision to our atelier and we will build it to last.",
     "cta_primary": "GET A QUOTE"
   },
+  "seo": {
+    "home_title": "JM Publicidad | Industrial Production Atelier · Madrid",
+    "home_description": "Industrial atelier specialising in large format printing, vehicle branding, signage, volumetric letters and CNC cutting. Est. 2009 — 15+ years delivering precision for demanding brands.",
+    "services_title": "Services | JM Publicidad — Large Format, Branding & Signage",
+    "services_description": "Large format printing, vehicle wraps, industrial signage, POP displays, volumetric letters and CNC cutting. High-precision production for high-impact brands.",
+    "projects_title": "Projects | JM Publicidad — Industrial Production Portfolio",
+    "projects_description": "Visual archive of calibrated results across corporate signage, fleet branding and retail environments. Selected projects from the JM Publicidad atelier.",
+    "contact_title": "Contact | JM Publicidad — Request a Quote",
+    "contact_description": "Get a quote for your production project — large format, vehicle branding, signage and more. We respond within 24 hours."
+  },
   "contactPage": {
     "badge": "PRODUCTION GATEWAY",
     "heading_1": "CONNECT",
