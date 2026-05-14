@@ -1,4 +1,9 @@
+import { useTranslation } from 'react-i18next'
+
 export default function Footer() {
+  const { t } = useTranslation()
+  const socials = t('footer.socials', { returnObjects: true }) as string[]
+
   return (
     <footer className="bg-footer-bg py-20">
       <div className="mx-auto w-[1024px] px-8">
@@ -11,12 +16,11 @@ export default function Footer() {
                 JM PUBLICIDAD
               </span>
               <p className="font-manrope text-[14px] leading-[23px] text-muted max-w-[320px]">
-                Industrial-grade production for brands that<br />
-                demand surgical precision and creative authority.
+                {t('footer.tagline')}
               </p>
             </div>
             <div className="flex gap-6 pt-12">
-              {['INSTAGRAM', 'LINKEDIN', 'VIMEO'].map((link) => (
+              {socials.map((link) => (
                 <a
                   key={link}
                   href="#"
@@ -32,21 +36,21 @@ export default function Footer() {
           <div className="flex flex-col items-end justify-between">
             <div className="flex flex-col items-end gap-4">
               <a
-                href="mailto:projects@jmpublicidad.com"
+                href={`mailto:${t('footer.email').toLowerCase()}`}
                 className="font-manrope text-[14px] tracking-[1.4px] uppercase text-mint hover:opacity-80 transition-opacity whitespace-nowrap"
               >
-                PROJECTS@JMPUBLICIDAD.COM
+                {t('footer.email')}
               </a>
               <span className="font-manrope text-[14px] tracking-[1.4px] uppercase text-nav-inactive whitespace-nowrap">
-                +54 9 11 0000 0000
+                {t('footer.phone')}
               </span>
             </div>
             <div className="flex flex-col items-end gap-2 pt-12">
               <span className="font-manrope text-[12px] tracking-[1.2px] uppercase text-muted text-right">
-                © 2024 JM PUBLICIDAD | INDUSTRIAL ATELIER
+                {t('footer.copyright')}
               </span>
               <a href="#" className="font-manrope text-[10px] tracking-[1px] uppercase text-muted hover:text-body-text transition-colors">
-                PRIVACY
+                {t('footer.privacy')}
               </a>
             </div>
           </div>

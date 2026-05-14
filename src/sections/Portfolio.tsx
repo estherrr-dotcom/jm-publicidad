@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { IMG_AXIS_TOWER, IMG_LUMINA_FLEET, ICON_LINK } from '../assets/images'
 
 interface ArtifactProps {
@@ -7,6 +8,17 @@ interface ArtifactProps {
   year: string
   imageHeight: string
 }
+
+interface ProjectCopy {
+  title: string
+  category: string
+  year: string
+}
+
+const PROJECT_IMAGES = [
+  { image: IMG_AXIS_TOWER,   imageHeight: 'h-[362px]' },
+  { image: IMG_LUMINA_FLEET, imageHeight: 'h-[387px]' },
+]
 
 function Artifact({ image, title, category, year, imageHeight }: ArtifactProps) {
   return (
@@ -35,6 +47,9 @@ function Artifact({ image, title, category, year, imageHeight }: ArtifactProps) 
 }
 
 export default function Portfolio() {
+  const { t } = useTranslation()
+  const projects = t('portfolio.projects', { returnObjects: true }) as ProjectCopy[]
+
   return (
     <section className="bg-secondary-bg py-32 overflow-hidden">
       <div className="flex flex-col gap-24 px-6 mx-auto w-[1024px]">
@@ -42,11 +57,11 @@ export default function Portfolio() {
         {/* Heading */}
         <div className="flex flex-col gap-8">
           <h2 className="font-space font-black text-[96px] leading-none tracking-[-4.8px] uppercase">
-            <span className="block text-heading">SELECTED</span>
-            <span className="block text-accent font-bold">ARTIFACTS</span>
+            <span className="block text-heading">{t('portfolio.heading_1')}</span>
+            <span className="block text-accent font-bold">{t('portfolio.heading_2')}</span>
           </h2>
           <p className="font-manrope text-[16px] leading-[26px] text-body-text max-w-[576px]">
-            A visual inventory of calibrated results across corporate and artistic landscapes.
+            {t('portfolio.body')}
           </p>
         </div>
 
@@ -54,20 +69,20 @@ export default function Portfolio() {
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-8">
             <Artifact
-              image={IMG_AXIS_TOWER}
-              title="AXIS TOWER SIGNAGE"
-              category="INDUSTRIAL FABRICATION"
-              year="2023"
-              imageHeight="h-[362px]"
+              image={PROJECT_IMAGES[0].image}
+              title={projects[0].title}
+              category={projects[0].category}
+              year={projects[0].year}
+              imageHeight={PROJECT_IMAGES[0].imageHeight}
             />
           </div>
           <div className="col-span-4 pt-48">
             <Artifact
-              image={IMG_LUMINA_FLEET}
-              title="LUMINA FLEET WRAP"
-              category="VEHICLE BRANDING"
-              year="2024"
-              imageHeight="h-[387px]"
+              image={PROJECT_IMAGES[1].image}
+              title={projects[1].title}
+              category={projects[1].category}
+              year={projects[1].year}
+              imageHeight={PROJECT_IMAGES[1].imageHeight}
             />
           </div>
         </div>

@@ -4,6 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  /*
+   * page-container — the canonical site-wide horizontal alignment.
+   * Matches the NavBar logo's left edge on every screen width.
+   * APPLY THIS CLASS to ALL page hero headings, section content wrappers,
+   * and any element that must align with the top navigation logo.
+   * Changing this class is the single source of truth for horizontal alignment.
+   */
+  .page-container {
+    @apply w-full mx-auto max-w-[1280px] px-6;
+  }
+}
+
 @layer base {
   *, *::before, *::after { box-sizing: border-box; }
 

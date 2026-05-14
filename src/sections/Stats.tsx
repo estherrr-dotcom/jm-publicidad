@@ -1,10 +1,14 @@
-const stats = [
-  { value: '15+ Years XP',    label: 'DECADES OF TECHNICAL MASTERY'   },
-  { value: '2.4k Deliveries', label: 'SUCCESSFUL PROJECT EXECUTIONS'  },
-  { value: '100% Precision',  label: 'ZERO-TOLERANCE FOR ERROR'       },
-]
+import { useTranslation } from 'react-i18next'
+
+interface StatItem {
+  value: string
+  label: string
+}
 
 export default function Stats() {
+  const { t } = useTranslation()
+  const stats = t('stats.items', { returnObjects: true }) as StatItem[]
+
   return (
     <section className="bg-secondary-bg py-12">
       <div className="grid grid-cols-3 gap-12 px-6 mx-auto w-[1024px]">

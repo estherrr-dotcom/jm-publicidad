@@ -9,7 +9,7 @@ import Footer from '../sections/Footer'
 export default function Home() {
   return (
     <div className="bg-primary-bg min-h-screen">
-      <NavBar />
+      <NavBar activeLink="home" />
       <main className="pt-[68px]">
         <Hero />
         <Stats />

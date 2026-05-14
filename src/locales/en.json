@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "HOME",
+    "services": "SERVICES",
+    "projects": "PROJECTS",
+    "contact": "CONTACT",
+    "cta": "GET A QUOTE",
+    "lang_en": "EN",
+    "lang_es": "ES"
+  },
+  "hero": {
+    "badge": "INDUSTRIAL ATELIER EST. 2009",
+    "headline_1": "TRANSFORMING",
+    "headline_2": "IDEAS INTO",
+    "headline_3": "INDUSTRIAL REALITY",
+    "cta_primary": "START PRODUCTION",
+    "cta_secondary": "WATCH SHOWREEL"
+  },
+  "stats": {
+    "items": [
+      { "value": "15+ Years XP",    "label": "DECADES OF TECHNICAL MASTERY"  },
+      { "value": "2.4k Deliveries", "label": "SUCCESSFUL PROJECT EXECUTIONS" },
+      { "value": "100% Precision",  "label": "ZERO-TOLERANCE FOR ERROR"      }
+    ]
+  },
+  "capabilities": {
+    "section_label": "[ SERVICES / 06 ]",
+    "heading": "CORE PRODUCTION CAPABILITIES",
+    "body": "Our atelier is equipped with state-of-the-art machinery capable of handling diverse materials from raw steel to architectural vinyl.",
+    "services": [
+      { "title": "LARGE FORMAT",       "description": "High-resolution prints for architectural scale deployments."          },
+      { "title": "SIGNAGE",            "description": "Wayfinding systems and architectural branding elements."               },
+      { "title": "VEHICLE BRANDING",   "description": "Precision fleet wraps for corporate mobile marketing."                },
+      { "title": "POP DISPLAYS",       "description": "Custom retail environments and promotional fixtures."                  },
+      { "title": "VOLUMETRIC LETTERS", "description": "3D fabricated signage with internal LED illumination."                 },
+      { "title": "CNC & LASER CUTTING","description": "High-precision subtractive manufacturing for custom parts."           }
+    ]
+  },
+  "portfolio": {
+    "heading_1": "SELECTED",
+    "heading_2": "ARTIFACTS",
+    "body": "A visual inventory of calibrated results across corporate and artistic landscapes.",
+    "projects": [
+      { "title": "AXIS TOWER SIGNAGE",  "category": "INDUSTRIAL FABRICATION", "year": "2023" },
+      { "title": "LUMINA FLEET WRAP",   "category": "VEHICLE BRANDING",       "year": "2024" }
+    ]
+  },
+  "finalCta": {
+    "label": "READY FOR CALIBRATION?",
+    "headline_1": "LET'S BUILD YOUR",
+    "headline_2": "INDUSTRIAL VISION.",
+    "cta_primary": "GET A QUOTE",
+    "cta_secondary": "VIEW ALL WORKS"
+  },
+  "footer": {
+    "tagline": "Industrial-grade production for brands that demand surgical precision and creative authority.",
+    "socials": ["INSTAGRAM", "LINKEDIN", "VIMEO"],
+    "email": "PROJECTS@JMPUBLICIDAD.COM",
+    "phone": "+54 9 11 0000 0000",
+    "copyright": "© 2024 JM PUBLICIDAD | INDUSTRIAL ATELIER",
+    "privacy": "PRIVACY"
+  },
+  "servicesPage": {
+    "badge": "INDUSTRIAL EXPERTISE",
+    "heading_1": "OUR",
+    "heading_2": "SERVICES",
+    "body": "Where mechanical precision meets creative vision. We provide a specialized industrial framework for high-impact brand realization.",
+    "grid": [
+      {
+        "number": "01",
+        "title": "LARGE FORMAT PRINTING",
+        "description": "High-fidelity output on premium substrates designed for maximum durability and visual impact.",
+        "bullets": ["Billboards & Mesh Banners", "Floor Graphics & Decals"]
+      },
+      {
+        "number": "02",
+        "title": "VEHICLE BRANDING",
+        "description": "Precision automotive wrapping and graphics that transform commercial fleets into mobile brand assets.",
+        "bullets": ["Full Vehicle Wraps", "Magnetic Signs & Decals"]
+      },
+      {
+        "number": "03",
+        "title": "INDUSTRIAL SIGNAGE",
+        "description": "Durable, architectural-grade signage solutions for corporate environments and production facilities.",
+        "bullets": ["Wayfinding Systems", "Safety & OSHA Signage"]
+      },
+      {
+        "number": "04",
+        "title": "POP DISPLAYS",
+        "description": "Custom Point-of-Purchase units that optimize retail engagement through engineered structural design.",
+        "bullets": ["Acrylic Counter Displays", "Standees & Floor Units"]
+      },
+      {
+        "number": "05",
+        "title": "VOLUMETRIC LETTERS",
+        "description": "High-impact 3D channel letters and logos, utilizing advanced materials and integrated lighting systems.",
+        "bullets": ["LED Backlit Signage", "Brushed Metal & Acrylic"]
+      },
+      {
+        "number": "06",
+        "title": "CNC & LASER CUTTING",
+        "description": "Automated subtractive manufacturing for complex geometries in acrylic, PVC, wood, and aluminum.",
+        "bullets": ["Intricate Pattern Cutting", "Prototyping & Fabrication"]
+      }
+    ]
+  },
+  "conversion": {
+    "heading_1": "READY TO ELEVATE",
+    "heading_2": "YOUR BRAND?",
+    "body": "Let's translate your vision into physical excellence. Our team of industrial designers and production specialists are standing by.",
+    "cta_primary": "SCHEDULE CONSULTATION",
+    "cta_secondary": "VIEW PORTFOLIO",
+    "feature_1": "PRECISION FOCUSED",
+    "feature_2": "RAPID DELIVERY"
+  },
+  "projectsPage": {
+    "badge": "INDUSTRIAL ATELIER",
+    "heading_1": "SELECTED",
+    "heading_2": "PROJECTS",
+    "body": "A visual archive of calibrated results across corporate environments, fleet operations, and retail landscapes.",
+    "log_label": "PH-2024.LOG",
+    "filters": ["ALL", "SIGNAGE", "VEHICLES", "MERCHANDISE"],
+    "projects": [
+      {
+        "id": "SIGN-042",
+        "title": "TECH-CORE EXTERIOR",
+        "category": "SIGNAGE",
+        "materials": ["ALUMINIUM COMPOSITE", "LED MODULE", "CNC ROUTING"]
+      },
+      {
+        "id": "FLT-881",
+        "title": "FLEET KINETICS",
+        "category": "VEHICLES",
+        "materials": ["CAST VINYL", "DIGITAL PRINT"]
+      },
+      {
+        "id": "MER-203",
+        "title": "NOMAD GEAR SYSTEM",
+        "category": "MERCHANDISE",
+        "materials": ["SCREEN PRINT", "EMBROIDERY"]
+      },
+      {
+        "id": "INT-552",
+        "title": "VOID RETAIL INTERIOR",
+        "category": "SIGNAGE",
+        "materials": ["BACKLIT ACRYLIC", "POWDER COAT", "STRUCTURAL STEEL"]
+      }
+    ],
+    "cta_heading_1": "START YOUR NEXT",
+    "cta_heading_2": "PRODUCTION.",
+    "cta_body": "Every brief is a precision challenge. Bring your vision to our atelier and we will build it to last.",
+    "cta_primary": "GET A QUOTE"
+  },
+  "contactPage": {
+    "badge": "PRODUCTION GATEWAY",
+    "heading_1": "CONNECT",
+    "heading_2": "WITH US",
+    "body": "Elevating industrial narratives through technical precision and editorial craftsmanship. Our atelier is designed for production-focused collaboration where every pixel is calibrated to your brand's authority.",
+    "status_label": "CURRENT STUDIO STATUS",
+    "status_text": "ACTIVE WORKSHOP",
+    "quote_title": "REQUEST A QUOTE",
+    "quote_subtitle": "TECHNICAL SCOPE & PRODUCTION DETAILS",
+    "quote_service_label": "SERVICE TYPE",
+    "quote_service_options": [
+      "Commercial Production",
+      "Large Format Printing",
+      "Vehicle Branding",
+      "Industrial Signage",
+      "POP Displays",
+      "Volumetric Letters",
+      "CNC & Laser Cutting"
+    ],
+    "quote_budget_label": "BUDGET RANGE (EUR)",
+    "quote_budget_options": [
+      "Under 1,000",
+      "1,000 — 5,000",
+      "5,000 — 15,000",
+      "15,000 — 50,000",
+      "50,000+"
+    ],
+    "quote_description_label": "PROJECT DESCRIPTION",
+    "quote_description_placeholder": "Briefly describe your production needs...",
+    "quote_timeline_label": "EXPECTED TIMELINE",
+    "quote_timeline_placeholder": "e.g. Q3 2025 Launch",
+    "quote_submit": "SUBMIT QUOTE REQUEST",
+    "quote_success": "Quote request sent. We'll be in touch within 24 hours.",
+    "asset_id": "ASSET ID_001",
+    "asset_label": "PRECISION MILLING WORKSHOP",
+    "inquiry_title": "GENERAL INQUIRY",
+    "inquiry_subtitle": "DIALOGUE & COLLABORATION",
+    "inquiry_name_label": "FULL NAME",
+    "inquiry_email_label": "EMAIL ADDRESS",
+    "inquiry_message_label": "YOUR MESSAGE",
+    "inquiry_submit": "SEND MESSAGE",
+    "inquiry_success": "Message received. We'll respond within 2 business days.",
+    "location_title": "HQ LOCATION",
+    "location_line_1": "Calle de la Industrialización, 42",
+    "location_line_2": "Polígono Tecnológico, Madrid",
+    "location_line_3": "28045, Spain",
+    "hours_title": "STUDIO HOURS",
+    "hours_weekdays": "MON — FRI",
+    "hours_weekdays_time": "09:00 — 18:30 CET",
+    "hours_weekend": "SAT — SUN",
+    "hours_weekend_time": "CLOSED"
+  }
+}

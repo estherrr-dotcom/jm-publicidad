@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "INICIO",
+    "services": "SERVICIOS",
+    "projects": "PROYECTOS",
+    "contact": "CONTACTO",
+    "cta": "COTIZAR",
+    "lang_en": "EN",
+    "lang_es": "ES"
+  },
+  "hero": {
+    "badge": "TALLER INDUSTRIAL EST. 2009",
+    "headline_1": "TRANSFORMANDO",
+    "headline_2": "IDEAS EN",
+    "headline_3": "REALIDAD INDUSTRIAL",
+    "cta_primary": "INICIAR PRODUCCIÓN",
+    "cta_secondary": "VER SHOWREEL"
+  },
+  "stats": {
+    "items": [
+      { "value": "15+ Años XP",    "label": "DÉCADAS DE DOMINIO TÉCNICO"        },
+      { "value": "2.4k Entregas",  "label": "PROYECTOS EJECUTADOS CON ÉXITO"    },
+      { "value": "100% Precisión", "label": "TOLERANCIA CERO AL ERROR"          }
+    ]
+  },
+  "capabilities": {
+    "section_label": "[ SERVICIOS / 06 ]",
+    "heading": "CAPACIDADES DE PRODUCCIÓN",
+    "body": "Nuestro taller está equipado con maquinaria de última generación, capaz de trabajar con materiales tan diversos como el acero en bruto y el vinilo arquitectónico.",
+    "services": [
+      { "title": "GRAN FORMATO",         "description": "Impresiones de alta resolución para despliegues a escala arquitectónica."            },
+      { "title": "SEÑALÉTICA",           "description": "Sistemas de orientación y elementos de marca arquitectónica."                        },
+      { "title": "ROTULACIÓN VEHICULAR", "description": "Vinilado preciso de flota para marketing corporativo en movimiento."                  },
+      { "title": "DISPLAYS POP",         "description": "Entornos retail a medida y elementos de promoción personalizados."                   },
+      { "title": "LETRAS VOLUMÉTRICAS",  "description": "Señalética 3D con iluminación LED interna integrada."                               },
+      { "title": "CORTE CNC Y LÁSER",    "description": "Fabricación sustractiva de alta precisión para piezas a medida."                    }
+    ]
+  },
+  "portfolio": {
+    "heading_1": "PROYECTOS",
+    "heading_2": "SELECCIONADOS",
+    "body": "Un inventario visual de resultados calibrados en entornos corporativos y artísticos.",
+    "projects": [
+      { "title": "SEÑALÉTICA AXIS TOWER",   "category": "FABRICACIÓN INDUSTRIAL", "year": "2023" },
+      { "title": "ROTULACIÓN LUMINA FLEET", "category": "ROTULACIÓN VEHICULAR",   "year": "2024" }
+    ]
+  },
+  "finalCta": {
+    "label": "¿LISTO PARA LA CALIBRACIÓN?",
+    "headline_1": "CONSTRUYAMOS TU",
+    "headline_2": "VISIÓN INDUSTRIAL.",
+    "cta_primary": "SOLICITAR PRESUPUESTO",
+    "cta_secondary": "VER TODOS LOS TRABAJOS"
+  },
+  "footer": {
+    "tagline": "Producción de grado industrial para marcas que exigen precisión quirúrgica y autoridad creativa.",
+    "socials": ["INSTAGRAM", "LINKEDIN", "VIMEO"],
+    "email": "PROJECTS@JMPUBLICIDAD.COM",
+    "phone": "+54 9 11 0000 0000",
+    "copyright": "© 2024 JM PUBLICIDAD | TALLER INDUSTRIAL",
+    "privacy": "PRIVACIDAD"
+  },
+  "servicesPage": {
+    "badge": "EXPERIENCIA INDUSTRIAL",
+    "heading_1": "NUESTROS",
+    "heading_2": "SERVICIOS",
+    "body": "Donde la precisión mecánica se encuentra con la visión creativa. Ofrecemos un marco industrial especializado para la materialización de marcas de alto impacto.",
+    "grid": [
+      {
+        "number": "01",
+        "title": "IMPRESIÓN EN GRAN FORMATO",
+        "description": "Producción de alta fidelidad sobre sustratos premium diseñada para máxima durabilidad e impacto visual.",
+        "bullets": ["Vallas y Lonas de Malla", "Gráficas de Suelo y Adhesivos"]
+      },
+      {
+        "number": "02",
+        "title": "ROTULACIÓN VEHICULAR",
+        "description": "Vinilado de precisión y gráficas que transforman flotas comerciales en activos de marca móviles.",
+        "bullets": ["Vinilos de Cobertura Total", "Magnéticos y Adhesivos"]
+      },
+      {
+        "number": "03",
+        "title": "SEÑALÉTICA INDUSTRIAL",
+        "description": "Soluciones de señalética duradera de grado arquitectónico para entornos corporativos e instalaciones productivas.",
+        "bullets": ["Sistemas de Orientación", "Señalética de Seguridad"]
+      },
+      {
+        "number": "04",
+        "title": "DISPLAYS POP",
+        "description": "Unidades de punto de venta a medida que optimizan el engagement retail mediante diseño estructural de ingeniería.",
+        "bullets": ["Expositores de Mostrador en Acrílico", "Displays de Suelo"]
+      },
+      {
+        "number": "05",
+        "title": "LETRAS VOLUMÉTRICAS",
+        "description": "Letras y logos 3D de alto impacto, con materiales avanzados y sistemas de iluminación integrados.",
+        "bullets": ["Señalética con Retroiluminación LED", "Metal Cepillado y Acrílico"]
+      },
+      {
+        "number": "06",
+        "title": "CORTE CNC Y LÁSER",
+        "description": "Fabricación sustractiva automatizada para geometrías complejas en acrílico, PVC, madera y aluminio.",
+        "bullets": ["Corte de Patrones Intricados", "Prototipado y Fabricación"]
+      }
+    ]
+  },
+  "conversion": {
+    "heading_1": "¿LISTO PARA ELEVAR",
+    "heading_2": "TU MARCA?",
+    "body": "Traduzcamos tu visión en excelencia física. Nuestro equipo de diseñadores industriales y especialistas en producción está a tu disposición.",
+    "cta_primary": "PROGRAMAR CONSULTORÍA",
+    "cta_secondary": "VER PORTAFOLIO",
+    "feature_1": "ENFOQUE EN PRECISIÓN",
+    "feature_2": "ENTREGA RÁPIDA"
+  },
+  "projectsPage": {
+    "badge": "TALLER INDUSTRIAL",
+    "heading_1": "PROYECTOS",
+    "heading_2": "SELECCIONADOS",
+    "body": "Un archivo visual de resultados calibrados en entornos corporativos, operaciones de flota y espacios retail.",
+    "log_label": "PH-2024.REG",
+    "filters": ["TODOS", "SEÑALÉTICA", "VEHÍCULOS", "MERCHANDISING"],
+    "projects": [
+      {
+        "id": "SIGN-042",
+        "title": "TECH-CORE EXTERIOR",
+        "category": "SEÑALÉTICA",
+        "materials": ["COMPOSITE DE ALUMINIO", "MÓDULO LED", "FRESADO CNC"]
+      },
+      {
+        "id": "FLT-881",
+        "title": "FLEET KINETICS",
+        "category": "VEHÍCULOS",
+        "materials": ["VINILO FUNDIDO", "IMPRESIÓN DIGITAL"]
+      },
+      {
+        "id": "MER-203",
+        "title": "NOMAD GEAR SYSTEM",
+        "category": "MERCHANDISING",
+        "materials": ["SERIGRAFÍA", "BORDADO"]
+      },
+      {
+        "id": "INT-552",
+        "title": "VOID RETAIL INTERIOR",
+        "category": "SEÑALÉTICA",
+        "materials": ["ACRÍLICO RETROILUMINADO", "PINTURA EN POLVO", "ACERO ESTRUCTURAL"]
+      }
+    ],
+    "cta_heading_1": "INICIA TU PRÓXIMA",
+    "cta_heading_2": "PRODUCCIÓN.",
+    "cta_body": "Cada briefing es un reto de precisión. Trae tu visión a nuestro taller y la construiremos para que perdure.",
+    "cta_primary": "SOLICITAR PRESUPUESTO"
+  },
+  "contactPage": {
+    "badge": "PUERTA DE PRODUCCIÓN",
+    "heading_1": "CONECTA",
+    "heading_2": "CON NOSOTROS",
+    "body": "Elevamos narrativas industriales a través de la precisión técnica y el virtuosismo editorial. Nuestro taller está diseñado para la colaboración orientada a la producción, donde cada píxel se calibra a la autoridad de tu marca.",
+    "status_label": "ESTADO ACTUAL DEL TALLER",
+    "status_text": "TALLER ACTIVO",
+    "quote_title": "SOLICITAR PRESUPUESTO",
+    "quote_subtitle": "ALCANCE TÉCNICO Y DETALLES DE PRODUCCIÓN",
+    "quote_service_label": "TIPO DE SERVICIO",
+    "quote_service_options": [
+      "Producción Comercial",
+      "Impresión en Gran Formato",
+      "Rotulación Vehicular",
+      "Señalética Industrial",
+      "Displays POP",
+      "Letras Volumétricas",
+      "Corte CNC y Láser"
+    ],
+    "quote_budget_label": "RANGO DE PRESUPUESTO (EUR)",
+    "quote_budget_options": [
+      "Menos de 1.000",
+      "1.000 — 5.000",
+      "5.000 — 15.000",
+      "15.000 — 50.000",
+      "Más de 50.000"
+    ],
+    "quote_description_label": "DESCRIPCIÓN DEL PROYECTO",
+    "quote_description_placeholder": "Describe brevemente tus necesidades de producción...",
+    "quote_timeline_label": "PLAZO ESTIMADO",
+    "quote_timeline_placeholder": "p. ej. Lanzamiento en Q3 2025",
+    "quote_submit": "ENVIAR SOLICITUD DE PRESUPUESTO",
+    "quote_success": "Solicitud enviada. Nos pondremos en contacto en menos de 24 horas.",
+    "asset_id": "ID ACTIVO_001",
+    "asset_label": "TALLER DE FRESADO DE PRECISIÓN",
+    "inquiry_title": "CONSULTA GENERAL",
+    "inquiry_subtitle": "DIÁLOGO Y COLABORACIÓN",
+    "inquiry_name_label": "NOMBRE COMPLETO",
+    "inquiry_email_label": "CORREO ELECTRÓNICO",
+    "inquiry_message_label": "TU MENSAJE",
+    "inquiry_submit": "ENVIAR MENSAJE",
+    "inquiry_success": "Mensaje recibido. Responderemos en un plazo de 2 días hábiles.",
+    "location_title": "SEDE PRINCIPAL",
+    "location_line_1": "Calle de la Industrialización, 42",
+    "location_line_2": "Polígono Tecnológico, Madrid",
+    "location_line_3": "28045, España",
+    "hours_title": "HORARIO DEL TALLER",
+    "hours_weekdays": "LUN — VIE",
+    "hours_weekdays_time": "09:00 — 18:30 CET",
+    "hours_weekend": "SÁB — DOM",
+    "hours_weekend_time": "CERRADO"
+  }
+}

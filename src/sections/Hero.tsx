@@ -1,6 +1,9 @@
+import { useTranslation } from 'react-i18next'
 import { IMG_HERO_PHOTO, ICON_ARROW, ICON_PLAY } from '../assets/images'
 
 export default function Hero() {
+  const { t } = useTranslation()
+
   return (
     <section className="relative min-h-[921px] overflow-hidden flex flex-col justify-end pb-24">
 
@@ -24,21 +27,22 @@ export default function Hero() {
         </span>
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 px-6 max-w-[896px]">
+      {/* Content — page-container aligns left edge with NavBar logo on all screen widths */}
+      <div className="relative z-10 page-container">
+      <div className="max-w-[896px]">
 
         {/* Badge */}
         <div className="inline-flex items-center px-[13px] py-[5px] mb-4 bg-[rgba(189,203,175,0.1)] border border-[rgba(189,203,175,0.2)]">
           <span className="font-inter text-[10px] tracking-[2px] uppercase text-accent">
-            INDUSTRIAL ATELIER EST. 2009
+            {t('hero.badge')}
           </span>
         </div>
 
         {/* Headline */}
         <h1 className="font-space font-black text-[96px] leading-none tracking-[-4.8px] uppercase mb-6">
-          <span className="block text-heading">TRANSFORMING</span>
-          <span className="block text-heading">IDEAS INTO</span>
-          <span className="block text-accent font-bold">INDUSTRIAL REALITY</span>
+          <span className="block text-heading">{t('hero.headline_1')}</span>
+          <span className="block text-heading">{t('hero.headline_2')}</span>
+          <span className="block text-accent font-bold">{t('hero.headline_3')}</span>
         </h1>
 
         {/* CTAs */}
@@ -47,7 +51,7 @@ export default function Hero() {
             href="#"
             className="inline-flex items-center gap-4 bg-accent text-btn-text font-space font-bold text-[14px] tracking-[1.4px] uppercase px-10 py-5 hover:bg-heading transition-colors"
           >
-            START PRODUCTION
+            {t('hero.cta_primary')}
             <img src={ICON_ARROW} alt="" className="w-4 h-4" />
           </a>
 
@@ -56,11 +60,12 @@ export default function Hero() {
               <img src={ICON_PLAY} alt="" className="w-[11px] h-[14px]" />
             </div>
             <span className="font-inter font-semibold text-[12px] tracking-[1.2px] uppercase text-body-text group-hover:text-heading transition-colors">
-              WATCH SHOWREEL
+              {t('hero.cta_secondary')}
             </span>
           </a>
         </div>
-      </div>
+      </div>{/* max-w-[896px] */}
+      </div>{/* page-container */}
 
     </section>
   )
