@@ -17,6 +17,18 @@ export default function Hero() {
         />
       </div>
 
+      {/* Animated overlay — looping video on top of the photo, screen blend so darks are transparent */}
+      <div className="absolute inset-0 pointer-events-none" style={{ mixBlendMode: 'screen', opacity: 0.55 }}>
+        <video
+          src="/hero-animation.webm"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+      </div>
+
       {/* Bottom gradient fade */}
       <div className="absolute inset-0 bg-gradient-to-t from-primary-bg via-transparent to-transparent" />
 
