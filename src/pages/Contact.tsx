@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react'
+import { type FormEvent, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import NavBar from '../sections/NavBar'
 import Footer from '../sections/Footer'
