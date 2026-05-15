@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { IMG_HERO_PHOTO, ICON_ARROW, ICON_PLAY } from '../assets/images'
+import UnicornScene from 'unicornstudio-react'
 
 export default function Hero() {
   const { t } = useTranslation()
@@ -17,14 +18,12 @@ export default function Hero() {
         />
       </div>
 
-      {/* Animated overlay — looping video on top of the photo, screen blend so darks are transparent */}
-      <div className="absolute inset-0 pointer-events-none" style={{ mixBlendMode: 'screen', opacity: 0.55 }}>
-        <video
-          src="/hero-animation.webm"
-          autoPlay
-          loop
-          muted
-          playsInline
+      {/* Animated overlay — Unicorn Studio scene */}
+      <div className="absolute inset-0 pointer-events-none" style={{ opacity: 0.85 }}>
+        <UnicornScene
+          projectId="8w4d650UN2E6wsPOCmhU"
+          width={1920}
+          height={1080}
           className="absolute inset-0 w-full h-full object-cover"
         />
       </div>
